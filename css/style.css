@@ -1,0 +1,140 @@
+/* Подключение шрифтов */
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200917-114617/Gilroy-Bold.woff") format("woff2"),
+      url("../font/transfonter.org-20200917-114617/Gilroy-Bold.woff") format("woff2"), format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200917-114617/Gilroy-Regular.woff2") format("woff2"),
+      url("../font/transfonter.org-20200917-114617/Gilroy-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Futura PT";
+   src: url("../font/transfonter.org-20201003-085137/FuturaPT-Demi.woff2") format("woff2"),
+      url("../font/transfonter.org-20201003-085137/FuturaPT-Demi.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Futura PT";
+   src: url("../font/transfonter.org-20201003-085137/FuturaPT-Light.woff2") format("woff2"),
+      url("../font/transfonter.org-20201003-085137/FuturaPT-Light.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Futura PT";
+   src: url("../font/transfonter.org-20201003-085137/FuturaPT-Book.woff2") format("woff2"),
+      url("../font/transfonter.org-20201003-085137/FuturaPT-Book.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Futura PT";
+   src: url("../font/transfonter.org-20201003-085137/FuturaPT-Bold.woff2") format("woff2"),
+      url("../font/transfonter.org-20201003-085137/FuturaPT-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+*:focus {
+   outline: none;
+}
+ol li,
+ul li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+body {
+   min-height: 100%;
+   font-size: 14px;
+   line-height: 1;
+   font-family: Poppins;
+}
+
+/*---------*/
+.wrapper {
+   overflow: hidden;
+   min-height: 590px;
+   background: url("../img/bg.png") 660px 10% no-repeat;
+   max-width: 1500px;
+   margin: 0 auto;
+}
+
+.header {
+}
+
+.logo img {
+   margin: 24px 113px 0px 165px;
+}
+
+
+.button {
+   display: inline-block;
+   min-width: 160px;
+   height: 44px;
+   background: linear-gradient(360deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 51.04%), #70c851;
+   border-radius: 3px;
+   font-family: Gilroy;
+   font-size: 16px;
+   line-height: 19px;
+   padding: 12px 0px 0px 30px;
+   /*margin: 0px 0px 0px 110px;*/
+}
+.button span {
+   display: inline-block;
+   color: #ffffff;
+   padding: 0px 30px 0px 0px;
+   background: url("../img/icon/Arrow\ 1\ \(Stroke\).svg") right no-repeat;
+}
+
+
+.contentfooter {
+   background: url("../img/bgfooter.png") 90% 40%  no-repeat;
+   max-width: 1500px;
+   margin: 0 auto;
+   min-height: 600px;
+}
